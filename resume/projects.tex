@@ -1,0 +1,118 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Research Projects}
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+\cventry
+    {Intermittent Computing}
+    {Energy efficient architectures for energy-harvesting devices}
+    {Advisor: Joshua San Miguel}
+    {}
+    {
+     \begin{cvitems} % Description(s)
+        \item {Using legacy architecture concepts like register renaming and liveness analysis to achieve reliable computation in an extremely energy-constrained environment}
+        \item {Apart from low power mobile applications, these solutions can also mitigate issues in supporting machine learning inference at the edge}
+      \end{cvitems}
+    }
+    
+%---------------------------------------------------------
+  \cventry
+    {Quantum Computing} % Role
+    {Fast and scalable simulation of NISQ-era Quantum Computers} % Event
+    {Advisor: Joshua San Miguel} % Location
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s)
+        \item {Using concepts of stochastic computing to accelerate simulation of quantum circuits}
+      \end{cvitems}
+    }
+    
+%---------------------------------------------------------
+  \cventry
+    {Digital Engineering Laboratory (ECE 554)}
+    {Processor-Neural Engine System for digit recognition on an FPGA}
+    {Advisor: Parmesh Ramanathan}
+    {}
+    {
+     \begin{cvitems} % Description(s)
+        \item {Designed a 24-bit ISA for CPU and Neural Engine}
+        \item {Weights for the neural network were loaded from an SDRAM, pre-loaded on reset through a serial interface from a terminal using PySerial API}
+        \item {The input, fed to the neural engine, is an image from a VGA camera that is stored on the on-board block RAM after pre-processing in run-time}
+        \item {The digital logic was written in Verilog. The design was synthesized and programmed using Quartus on an Altera FPGA Cyclone V board}
+      \end{cvitems}
+    }
+    
+%---------------------------------------------------------
+  \cventry
+    {Advanced Computer Architecture 1 (ECE/CS 752)} % Role
+    {Study of cache replacement policies in Gem5} % Event
+    {Advisor: Matt Sinclair} % Location
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s)
+        \item {Wrote micro-benchmarks to study cache replacement policies in Gem5}
+        \item{Found bugs in cache replacement policies of Gem5 public repository source code and made fixes}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Advanced Computer Architecture 2 (ECE/CS 757)}
+    {Dead-word analysis for NoCs in Gem5+Garnet2.0}
+    {Advisor: Mark D. Hill}
+    {}
+    {
+     \begin{cvitems} % Description(s)
+        \item {Did dead word analysis for the traffic induced by a 16-core X86 system with a two-level cache, the last-level cache being shared among the cores, and suggested ways to reduce power consumption}
+        \item{Configured the on-chip interconnect using Garnet2.0 and used L1 caches with MESI protocol in Gem5 Ruby memory model}
+      \end{cvitems}
+    }
+    
+%---------------------------------------------------------
+  \cventry
+    {Quantum Computing (CS880)}
+    {Study in classical simulation of quantum circuits based on stabilizer formalism}
+    {Advisor: Dieter van Melkebeek}
+    {}
+    {
+     \begin{cvitems} % Description(s)
+        \item {Studied classical simulation of quantum circuits with an emphasis on techniques using stabilizer formalism}
+        \item{Wrote a C++ simulator to simulate classically quantum circuits based on stabilizer frames and verified output with results from IBM's Qiskit}
+      \end{cvitems}
+    }
+    
+%---------------------------------------------------------
+  \cventry
+    {Digital ASIC Design}
+    {Packet Forwarding Engine}
+    {Advisor: Paul D. Franzon}
+    {}
+    {
+     \begin{cvitems} % Description(s)
+        \item {Designed a packet forwarding engine based on a 16-way trie search algorithm}
+        \item {The RTL was written in Verilog}
+        \item {The circuit logic was simulated in ModelSim and was synthesized using Synopsys Design Vision}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Advanced Microarchitecture}
+    {Implemented Load Speculation Techniques on Simplescalar}
+    {Advisor: Eric Rotenberg}
+    {}
+    {
+     \begin{cvitems} % Description(s)
+        \item {Implemented “always stall”, “always speculate” and a hybrid approach that involved a dedicated memory dependence predictor using store sets in Simplescalar simulator}
+        \item {Did performance analysis with SPEC2K benchmarks}
+      \end{cvitems}
+    }
+    
+%---------------------------------------------------------
+\end{cventries}
+
+
